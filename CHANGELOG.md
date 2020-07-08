@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/monorepo-semantic-release/git/compare/v1.0.1...v1.1.0) (2020-07-08)
+
+
+### Bug Fixes
+
+* change pkgContexts from array to object ([619ce6a](https://github.com/monorepo-semantic-release/git/commit/619ce6a5781c805a4ddb641b854eb29eda6a5317))
+
+
+### Features
+
+* commit composer.json in packages' directories ([d7a0175](https://github.com/monorepo-semantic-release/git/commit/d7a0175e5832798cea0903627f7267fac83869bb))
+
 ## [1.0.1](https://github.com/monorepo-semantic-release/git/compare/v1.0.0...v1.0.1) (2020-07-02)
 
 
