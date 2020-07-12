@@ -5,7 +5,7 @@ const {isNil, uniq, forEach} = require('lodash');
 const debug = require('debug')('semantic-release:monnorepo-git');
 
 async function prepareAll(pluginConfig, context) {
-  const {logger, pkgContexts} = context;
+  const {options: {version}, logger, pkgContexts} = context;
 
   if (isNil(pluginConfig.assets)) {
     // Add "package.json" and "CHANGELOG.md" in package directories
@@ -24,16 +24,17 @@ async function prepareAll(pluginConfig, context) {
 
   const notes = [];
   const versions = [];
-  forEach(pkgContexts, ({nextRelease}) => {
+  forEach(pkgContexts, ({name, nextRelease}) => {
     if (!nextRelease) {
       return;
     }
-    notes.push('# ' + nextRelease.gitTag + '\n\n' + nextRelease.notes);
+    notes.push(`# ${version === 'fixed' ? (name + ' ') : ''}${nextRelease.gitTag}\n\n${nextRelease.notes}`);
     versions.push(nextRelease.gitTag);
-  })
+  });
+
   context.nextRelease = {
-    version: versions.join(', '),
-    notes: notes.join('\n\n')
+    version: uniq(versions).join(', '),
+    notes: notes.join('\n\n'),
   }
 
   await prepare(pluginConfig, context);
