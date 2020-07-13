@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/monorepo-semantic-release/git/compare/v1.2.1...v1.2.2) (2020-07-13)
+
+
+### Bug Fixes
+
+* remove gitTag in notes ([15b8408](https://github.com/monorepo-semantic-release/git/commit/15b84083095e1469feb4dd627eb02d0764ef5bb2))
+
 ## [1.2.1](https://github.com/monorepo-semantic-release/git/compare/v1.2.0...v1.2.1) (2020-07-13)
 
 
