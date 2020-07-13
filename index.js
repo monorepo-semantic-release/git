@@ -28,7 +28,7 @@ async function prepareAll(pluginConfig, context) {
     if (!nextRelease) {
       return;
     }
-    notes.push(`# ${versionMode === 'fixed' ? (name + ' ') : ''}${nextRelease.gitTag}\n\n${nextRelease.notes}`);
+    notes.push(`# ${name}\n\n${nextRelease.notes}`);
     versions.push(nextRelease.gitTag);
   });
 
