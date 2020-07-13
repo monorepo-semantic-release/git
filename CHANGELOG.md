@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/monorepo-semantic-release/git/compare/v1.1.0...v1.2.0) (2020-07-13)
+
+
+### Features
+
+* support fixed version mode ([4893783](https://github.com/monorepo-semantic-release/git/commit/48937837f84a589e43dfefeef789a07a94613452))
+
 # [1.1.0](https://github.com/monorepo-semantic-release/git/compare/v1.0.1...v1.1.0) (2020-07-08)
 
 
