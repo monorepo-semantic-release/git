@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/monorepo-semantic-release/git/compare/v1.2.0...v1.2.1) (2020-07-13)
+
+
+### Bug Fixes
+
+* version => versionMode ([c68f971](https://github.com/monorepo-semantic-release/git/commit/c68f97112c4d096c50c74cb8d7b5225732310c0b))
+
 # [1.2.0](https://github.com/monorepo-semantic-release/git/compare/v1.1.0...v1.2.0) (2020-07-13)
 
 

@@ -1,7 +1,7 @@
 {
   "name": "@monorepo-semantic-release/git",
   "description": "semantic-release plugin to commit monorepo's release assets to the project's git repository",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "index.js",
   "repository": "https://github.com/monorepo-semantic-release/git.git",
   "author": "twinh <twinhuang@qq.com>",
