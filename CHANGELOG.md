@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/monorepo-semantic-release/git/compare/v1.2.2...v1.2.3) (2020-08-14)
+
+
+### Bug Fixes
+
+* Specify simplify commit title for monorepo ([dac8006](https://github.com/monorepo-semantic-release/git/commit/dac800626f54857426b9a79cc8dbfca7bec29226))
+
 ## [1.2.2](https://github.com/monorepo-semantic-release/git/compare/v1.2.1...v1.2.2) (2020-07-13)
 
 
