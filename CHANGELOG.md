@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/monorepo-semantic-release/git/compare/v1.2.3...v1.3.0) (2022-04-16)
+
+
+### Features
+
+* add `composer.lock` to default assets ([4827ac8](https://github.com/monorepo-semantic-release/git/commit/4827ac8fdf800eb75792e548fbbf7a7f764b8014))
+
 ## [1.2.3](https://github.com/monorepo-semantic-release/git/compare/v1.2.2...v1.2.3) (2020-08-14)
 
 
