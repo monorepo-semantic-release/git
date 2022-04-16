@@ -13,6 +13,7 @@ async function prepareAll(pluginConfig, context) {
     pluginConfig.assets = uniq(assets.concat(pluginConfig.packages.map(pkg => [
       path.join(pkg, 'package.json'),
       path.join(pkg, 'composer.json'),
+      path.join(pkg, 'composer.lock'),
       path.join(pkg, 'CHANGELOG.md'),
     ]).flat()));
 
